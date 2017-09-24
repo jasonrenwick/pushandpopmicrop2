@@ -1,4 +1,4 @@
-/* Lab 1 first file - ID number 815006821 */
+/* Lab 1 first file - ID number 814002707 */
 #include <p18f452.h>
 
 /*Set configuration bits of use with ICD2*/
