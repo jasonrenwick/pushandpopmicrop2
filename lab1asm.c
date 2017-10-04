@@ -20,7 +20,7 @@ void main(void){
         grpName[MapIndex] = getMapChar();
     }
     
-    grpName[0] = 'N';
+    grpName[0] = 'N';//this is just to get a break-point
         
 }
 
