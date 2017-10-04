@@ -38,10 +38,10 @@ intMapName
 			movwf				MapName4
 			movlw				0x70
 			movwf				MapName5
-			movlw				0x6f
+			movlw				0x6F
 			movwf				MapName6
 			movlw				0x70
-			movwf				MapName6
+			movwf				MapName7
 			return
 			
 			

@@ -1,20 +1,20 @@
 MPLINK 5.00, LINKER
-Linker Map File - Created Tue Oct 03 20:52:18 2017
+Linker Map File - Created Tue Oct 03 21:40:24 2017
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
                 ---------  ---------  ---------  ---------  ---------
                _entry_scn       code   0x000000    program   0x000006
                    .cinit    romdata   0x000006    program   0x000002
-          .code_lab1asm.o       code   0x000008    program   0x000066
-           .code___init.o       code   0x00006e    program   0x000002
-         .idata_c018i.o_i    romdata   0x000070    program   0x000000
-         .romdata_c018i.o    romdata   0x000070    program   0x000000
-            .code_c018i.o       code   0x000070    program   0x000000
-       .idata_lab1asm.o_i    romdata   0x000070    program   0x000000
-       .romdata_lab1asm.o    romdata   0x000070    program   0x000000
-        .idata___init.o_i    romdata   0x000070    program   0x000000
-        .romdata___init.o    romdata   0x000070    program   0x000000
+          .code_lab1asm.o       code   0x000008    program   0x000064
+           .code___init.o       code   0x00006c    program   0x000002
+         .idata_c018i.o_i    romdata   0x00006e    program   0x000000
+         .romdata_c018i.o    romdata   0x00006e    program   0x000000
+            .code_c018i.o       code   0x00006e    program   0x000000
+       .idata_lab1asm.o_i    romdata   0x00006e    program   0x000000
+       .romdata_lab1asm.o    romdata   0x00006e    program   0x000000
+        .idata___init.o_i    romdata   0x00006e    program   0x000000
+        .romdata___init.o    romdata   0x00006e    program   0x000000
                       RST       code   0x000080    program   0x000004
                _cinit_scn       code   0x000084    program   0x00009e
                       PGM       code   0x000122    program   0x00002a
@@ -37,9 +37,9 @@ Linker Map File - Created Tue Oct 03 20:52:18 2017
                               Program Memory Usage 
                                Start         End      
                            ---------   ---------      
-                            0x000000    0x00006f      
+                            0x000000    0x00006d      
                             0x000080    0x000187      
-            376 out of 33048 program addresses used, program memory utilization is 1%
+            374 out of 33048 program addresses used, program memory utilization is 1%
 
 
 
@@ -49,7 +49,7 @@ Linker Map File - Created Tue Oct 03 20:52:18 2017
        ___return_lbl00000   0x000004    program     static                          
        ___return_lbl00001   0x000186    program     static                          
        ___return_lbl00002   0x000120    program     static                          
-                   __init   0x00006e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+                   __init   0x00006c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
             __zero_memory   0x00014c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                 _do_cinit   0x000084    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
@@ -254,7 +254,7 @@ Linker Map File - Created Tue Oct 03 20:52:18 2017
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
        ___return_lbl00000   0x000004    program     static                          
                      main   0x000008    program     extern E:\ECNG3006\L01_814002707\MapNameTest\lab1asm.c
-                   __init   0x00006e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+                   __init   0x00006c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
                 _do_cinit   0x000084    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                      test   0x00009e    program     static                          
                 copy_loop   0x0000f6    program     static                          
