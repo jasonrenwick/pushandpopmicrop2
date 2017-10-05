@@ -1,5 +1,5 @@
 MPLINK 5.00, LINKER
-Linker Map File - Created Thu Oct 05 03:46:16 2017
+Linker Map File - Created Thu Oct 05 03:47:06 2017
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -57,34 +57,34 @@ Linker Map File - Created Thu Oct 05 03:46:16 2017
                  .tmpdata      udata   0x000002       data   0x000002
                 DELAYDAT2      udata   0x000004       data   0x000001
                 DELAYDAT1      udata   0x000005       data   0x000001
+           .udata_c018i.o      udata   0x000080       data   0x00000a
+         .udata_lab1asm.o      udata   0x00008a       data   0x000002
+          .idata___init.o      idata   0x00008c       data   0x000000
+          .udata___init.o      udata   0x00008c       data   0x000000
+         .idata_lab1asm.o      idata   0x00008c       data   0x000000
+        .idata_writdata.o      idata   0x00008c       data   0x000000
+        .udata_writdata.o      udata   0x00008c       data   0x000000
+        .idata_wcmdxlcd.o      idata   0x00008c       data   0x000000
+        .udata_wcmdxlcd.o      udata   0x00008c       data   0x000000
+        .idata_setddram.o      idata   0x00008c       data   0x000000
+        .udata_setddram.o      udata   0x00008c       data   0x000000
+        .idata_setcgram.o      idata   0x00008c       data   0x000000
+        .udata_setcgram.o      udata   0x00008c       data   0x000000
+        .idata_readdata.o      idata   0x00008c       data   0x000000
+        .udata_readdata.o      udata   0x00008c       data   0x000000
+        .idata_readaddr.o      idata   0x00008c       data   0x000000
+        .udata_readaddr.o      udata   0x00008c       data   0x000000
+        .idata_putsxlcd.o      idata   0x00008c       data   0x000000
+        .udata_putsxlcd.o      udata   0x00008c       data   0x000000
+        .idata_putrxlcd.o      idata   0x00008c       data   0x000000
+           .idata_c018i.o      idata   0x00008c       data   0x000000
+        .udata_putrxlcd.o      udata   0x00008c       data   0x000000
+        .idata_openxlcd.o      idata   0x00008c       data   0x000000
+        .udata_openxlcd.o      udata   0x00008c       data   0x000000
+        .idata_busyxlcd.o      idata   0x00008c       data   0x000000
+        .udata_busyxlcd.o      udata   0x00008c       data   0x000000
                      grp0      udata   0x000090       data   0x000008
-                   .stack      udata   0x000381       data   0x000080
-           .udata_c018i.o      udata   0x000401       data   0x00000a
-         .udata_lab1asm.o      udata   0x00040b       data   0x000002
-          .idata___init.o      idata   0x00040d       data   0x000000
-          .udata___init.o      udata   0x00040d       data   0x000000
-           .idata_c018i.o      idata   0x00040d       data   0x000000
-        .udata_busyxlcd.o      udata   0x00040d       data   0x000000
-         .idata_lab1asm.o      idata   0x00040d       data   0x000000
-        .idata_busyxlcd.o      idata   0x00040d       data   0x000000
-        .idata_writdata.o      idata   0x00040d       data   0x000000
-        .udata_writdata.o      udata   0x00040d       data   0x000000
-        .idata_wcmdxlcd.o      idata   0x00040d       data   0x000000
-        .udata_wcmdxlcd.o      udata   0x00040d       data   0x000000
-        .idata_setddram.o      idata   0x00040d       data   0x000000
-        .udata_setddram.o      udata   0x00040d       data   0x000000
-        .idata_setcgram.o      idata   0x00040d       data   0x000000
-        .udata_setcgram.o      udata   0x00040d       data   0x000000
-        .idata_readdata.o      idata   0x00040d       data   0x000000
-        .udata_readdata.o      udata   0x00040d       data   0x000000
-        .idata_readaddr.o      idata   0x00040d       data   0x000000
-        .udata_readaddr.o      udata   0x00040d       data   0x000000
-        .idata_putsxlcd.o      idata   0x00040d       data   0x000000
-        .udata_putsxlcd.o      udata   0x00040d       data   0x000000
-        .idata_putrxlcd.o      idata   0x00040d       data   0x000000
-        .udata_putrxlcd.o      udata   0x00040d       data   0x000000
-        .idata_openxlcd.o      idata   0x00040d       data   0x000000
-        .udata_openxlcd.o      udata   0x00040d       data   0x000000
+                   .stack      udata   0x000098       data   0x000080
             SFR_UNBANKED0      udata   0x000f80       data   0x000080
 
 
@@ -244,7 +244,7 @@ Linker Map File - Created Thu Oct 05 03:46:16 2017
                  LATEbits   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                    LVDCON   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                LVDCONbits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-                 MapIndex   0x00040b       data     extern E:\ECNG3006\L01_814002707\Lab1_q7b.X\lab1asm.c
+                 MapIndex   0x00008a       data     extern E:\ECNG3006\L01_814002707\Lab1_q7b.X\lab1asm.c
                   MapName   0x000090       data     extern E:\ECNG3006\L01_814002707\Lab1_q7b.X\lab1.asm
                    OSCCON   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                OSCCONbits   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
@@ -349,10 +349,10 @@ Linker Map File - Created Thu Oct 05 03:46:16 2017
                 __FPFLAGS   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
             __FPFLAGSbits   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
                   __tmp_0   0x000002       data     static E:\ECNG3006\L01_814002707\Lab1_q7b.X\lab1asm.c
-                curr_byte   0x000404       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               curr_entry   0x000406       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 data_ptr   0x000408       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     prom   0x000401       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                curr_byte   0x000083       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x000085       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x000087       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     prom   0x000080       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
 
 
 
@@ -438,12 +438,12 @@ Linker Map File - Created Thu Oct 05 03:46:16 2017
                   __tmp_0   0x000002       data     static E:\ECNG3006\L01_814002707\Lab1_q7b.X\lab1asm.c
             DelayCounter2   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd2.asm
             DelayCounter1   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd1.asm
+                     prom   0x000080       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                curr_byte   0x000083       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x000085       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x000087       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 MapIndex   0x00008a       data     extern E:\ECNG3006\L01_814002707\Lab1_q7b.X\lab1asm.c
                   MapName   0x000090       data     extern E:\ECNG3006\L01_814002707\Lab1_q7b.X\lab1.asm
-                     prom   0x000401       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                curr_byte   0x000404       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               curr_entry   0x000406       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 data_ptr   0x000408       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 MapIndex   0x00040b       data     extern E:\ECNG3006\L01_814002707\Lab1_q7b.X\lab1asm.c
                 PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                     PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                     PORTB   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm

@@ -1,4 +1,4 @@
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE  1
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE  1
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -57,7 +57,7 @@ Message[312]: Page or Bank selection not needed for this device.  No code genera
 00000E 6F93           00038                         movwf                           MapName4
 000010 0E70           00039                         movlw                           0x70
 000012 6F94           00040                         movwf                           MapName5
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE  2
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE  2
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -81,7 +81,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 000028 0012           00053                         return
                       00054                 
                       00055                         END
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE  3
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE  3
 
 
 SYMBOL TABLE
@@ -140,7 +140,7 @@ CCP2IE                            00000000
 CCP2IF                            00000000
 CCP2IP                            00000000
 CCP2M0                            00000000
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE  4
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE  4
 
 
 SYMBOL TABLE
@@ -199,7 +199,7 @@ EEIF                              00000004
 EEIP                              00000004
 EEPGD                             00000007
 FAST                              00000001
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE  5
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE  5
 
 
 SYMBOL TABLE
@@ -258,7 +258,7 @@ INTCON1                           00000FF2
 INTCON2                           00000FF1
 INTCON3                           00000FF0
 INTEDG0                           00000006
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE  6
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE  6
 
 
 SYMBOL TABLE
@@ -317,7 +317,7 @@ LVDIN                             00000005
 LVDIP                             00000002
 LVDL0                             00000000
 LVDL1                             00000001
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE  7
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE  7
 
 
 SYMBOL TABLE
@@ -376,7 +376,7 @@ PIE1                              00000F9D
 PIE2                              00000FA0
 PIR1                              00000F9E
 PIR2                              00000FA1
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE  8
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE  8
 
 
 SYMBOL TABLE
@@ -435,7 +435,7 @@ RB6                               00000006
 RB7                               00000007
 RBIE                              00000003
 RBIF                              00000000
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE  9
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE  9
 
 
 SYMBOL TABLE
@@ -494,7 +494,7 @@ SMP                               00000007
 SP0                               00000000
 SP1                               00000001
 SP2                               00000002
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE 10
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE 10
 
 
 SYMBOL TABLE
@@ -553,7 +553,7 @@ T1OSCEN                           00000003
 T1OSI                             00000001
 T1OSO                             00000000
 T1SYNC                            00000002
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE 11
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE 11
 
 
 SYMBOL TABLE
@@ -612,7 +612,7 @@ TOUTPS1                           00000004
 TOUTPS2                           00000005
 TOUTPS3                           00000006
 TRISA                             00000F92
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE 12
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE 12
 
 
 SYMBOL TABLE
@@ -671,7 +671,7 @@ TXSTA                             00000FAC
 UA                                00000001
 VREFM                             00000002
 VREFP                             00000003
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE 13
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE 13
 
 
 SYMBOL TABLE
@@ -730,7 +730,7 @@ _EBTR1_ON_7L                      000000FD
 _EBTR2_OFF_7L                     000000FF
 _EBTR2_ON_7L                      000000FB
 _EBTR3_OFF_7L                     000000FF
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE 14
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE 14
 
 
 SYMBOL TABLE
@@ -789,7 +789,7 @@ _WRT3_OFF_6L                      000000FF
 _WRT3_ON_6L                       000000F7
 _WRTB_OFF_6H                      000000FF
 _WRTB_ON_6H                       000000BF
-MPASM 5.54                          LAB1.ASM   10-5-2017  3:46:12         PAGE 15
+MPASM 5.54                          LAB1.ASM   10-5-2017  3:47:02         PAGE 15
 
 
 SYMBOL TABLE
@@ -802,6 +802,8 @@ _WRTD_ON_6H                       0000007F
 _XT_OSC                           000000F9
 _XT_OSC_1H                        000000F9
 __18F452                          00000001
+__DEBUG                           
+__MPLAB_DEBUGGER_SIMULATOR        1
 getMapChar                        0000001E
 intMapName                        00000000
 
