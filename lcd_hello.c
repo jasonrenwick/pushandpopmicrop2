@@ -1,4 +1,4 @@
-#include <p18cxxx.h>
+#include <p18f452.h>
 #include "xlcd_grpd.h"
 #include <delays.h>
 
@@ -11,20 +11,20 @@
 #pragma config WDT = OFF
 #pragma config LVP = OFF
 
-#define _XTAL_FREQ 20000000UL
+#define _XTAL_FREQ 4000000
 
 void DelayFor18TCY(void)
  {
  Delay10TCYx(0x6); //delays 20 cycles
  return;
  }
- /*****/
+ 
  void DelayPORXLCD(void)   // minimum 15ms
  {
  Delay100TCYx(0xF0);   // 100TCY * 160
  return;
  }
- /*****/
+ 
  void DelayXLCD(void)     // minimum 5ms
  {
  Delay100TCYx(0xF6);      // 100TCY * 54
@@ -46,4 +46,4 @@ void main(){
     while( BusyXLCD() );
        
     Sleep();
-}   
+}

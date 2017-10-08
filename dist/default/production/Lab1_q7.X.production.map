@@ -1,5 +1,5 @@
 MPLINK 5.00, LINKER
-Linker Map File - Created Thu Oct 05 03:17:27 2017
+Linker Map File - Created Sun Oct 08 12:46:29 2017
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -9,49 +9,49 @@ Linker Map File - Created Thu Oct 05 03:17:27 2017
                _cinit_scn       code   0x000008    program   0x00009e
          .code_openxlcd.o       code   0x0000a6    program   0x00009a
         .code_lcd_hello.o       code   0x000140    program   0x00008a
-         .code_setddram.o       code   0x0001ca    program   0x00004a
-         .code_setcgram.o       code   0x000214    program   0x00004a
-         .code_writdata.o       code   0x00025e    program   0x000046
-         .code_wcmdxlcd.o       code   0x0002a4    program   0x000046
-         .code_readdata.o       code   0x0002ea    program   0x000044
-         .code_readaddr.o       code   0x00032e    program   0x000044
-         .code_putrxlcd.o       code   0x000372    program   0x000044
-         .code_putsxlcd.o       code   0x0003b6    program   0x000042
-             D10KTCYXCODE       code   0x0003f8    program   0x00002e
-         .code_busyxlcd.o       code   0x000426    program   0x00002c
-                    .code       code   0x000452    program   0x000020
-             _startup_scn       code   0x000472    program   0x00001c
-             D100TCYXCODE       code   0x00048e    program   0x00001c
-              D10TCYXCODE       code   0x0004aa    program   0x000016
-             .stringtable    romdata   0x0004c0    program   0x000006
-           .code___init.o       code   0x0004c6    program   0x000002
-      .idata_wcmdxlcd.o_i    romdata   0x0004c8    program   0x000000
-      .romdata_wcmdxlcd.o    romdata   0x0004c8    program   0x000000
-      .romdata_setddram.o    romdata   0x0004c8    program   0x000000
-        .idata___init.o_i    romdata   0x0004c8    program   0x000000
-      .idata_setddram.o_i    romdata   0x0004c8    program   0x000000
-        .romdata___init.o    romdata   0x0004c8    program   0x000000
-      .idata_writdata.o_i    romdata   0x0004c8    program   0x000000
-      .romdata_setcgram.o    romdata   0x0004c8    program   0x000000
-      .idata_setcgram.o_i    romdata   0x0004c8    program   0x000000
-      .romdata_writdata.o    romdata   0x0004c8    program   0x000000
-         .idata_c018i.o_i    romdata   0x0004c8    program   0x000000
-         .romdata_c018i.o    romdata   0x0004c8    program   0x000000
-            .code_c018i.o       code   0x0004c8    program   0x000000
-     .idata_lcd_hello.o_i    romdata   0x0004c8    program   0x000000
-     .romdata_lcd_hello.o    romdata   0x0004c8    program   0x000000
-      .idata_busyxlcd.o_i    romdata   0x0004c8    program   0x000000
-      .romdata_busyxlcd.o    romdata   0x0004c8    program   0x000000
-      .idata_openxlcd.o_i    romdata   0x0004c8    program   0x000000
-      .romdata_openxlcd.o    romdata   0x0004c8    program   0x000000
-      .idata_putrxlcd.o_i    romdata   0x0004c8    program   0x000000
-      .romdata_putrxlcd.o    romdata   0x0004c8    program   0x000000
-      .idata_putsxlcd.o_i    romdata   0x0004c8    program   0x000000
-      .romdata_putsxlcd.o    romdata   0x0004c8    program   0x000000
-      .idata_readaddr.o_i    romdata   0x0004c8    program   0x000000
-      .romdata_readaddr.o    romdata   0x0004c8    program   0x000000
-      .idata_readdata.o_i    romdata   0x0004c8    program   0x000000
-      .romdata_readdata.o    romdata   0x0004c8    program   0x000000
+         .code_setddram.o       code   0x0001ca    program   0x000048
+         .code_setcgram.o       code   0x000212    program   0x000048
+         .code_writdata.o       code   0x00025a    program   0x000046
+         .code_wcmdxlcd.o       code   0x0002a0    program   0x000046
+         .code_readdata.o       code   0x0002e6    program   0x000044
+         .code_readaddr.o       code   0x00032a    program   0x000044
+         .code_putrxlcd.o       code   0x00036e    program   0x000044
+         .code_putsxlcd.o       code   0x0003b2    program   0x000042
+             D10KTCYXCODE       code   0x0003f4    program   0x00002e
+         .code_busyxlcd.o       code   0x000422    program   0x00002c
+                    .code       code   0x00044e    program   0x000020
+             _startup_scn       code   0x00046e    program   0x00001c
+             D100TCYXCODE       code   0x00048a    program   0x00001c
+              D10TCYXCODE       code   0x0004a6    program   0x000016
+             .stringtable    romdata   0x0004bc    program   0x000006
+           .code___init.o       code   0x0004c2    program   0x000002
+      .idata_wcmdxlcd.o_i    romdata   0x0004c4    program   0x000000
+      .romdata_wcmdxlcd.o    romdata   0x0004c4    program   0x000000
+      .romdata_setddram.o    romdata   0x0004c4    program   0x000000
+        .idata___init.o_i    romdata   0x0004c4    program   0x000000
+      .idata_setddram.o_i    romdata   0x0004c4    program   0x000000
+        .romdata___init.o    romdata   0x0004c4    program   0x000000
+      .idata_writdata.o_i    romdata   0x0004c4    program   0x000000
+      .romdata_setcgram.o    romdata   0x0004c4    program   0x000000
+      .idata_setcgram.o_i    romdata   0x0004c4    program   0x000000
+      .romdata_writdata.o    romdata   0x0004c4    program   0x000000
+         .idata_c018i.o_i    romdata   0x0004c4    program   0x000000
+         .romdata_c018i.o    romdata   0x0004c4    program   0x000000
+            .code_c018i.o       code   0x0004c4    program   0x000000
+     .idata_lcd_hello.o_i    romdata   0x0004c4    program   0x000000
+     .romdata_lcd_hello.o    romdata   0x0004c4    program   0x000000
+      .idata_busyxlcd.o_i    romdata   0x0004c4    program   0x000000
+      .romdata_busyxlcd.o    romdata   0x0004c4    program   0x000000
+      .idata_openxlcd.o_i    romdata   0x0004c4    program   0x000000
+      .romdata_openxlcd.o    romdata   0x0004c4    program   0x000000
+      .idata_putrxlcd.o_i    romdata   0x0004c4    program   0x000000
+      .romdata_putrxlcd.o    romdata   0x0004c4    program   0x000000
+      .idata_putsxlcd.o_i    romdata   0x0004c4    program   0x000000
+      .romdata_putsxlcd.o    romdata   0x0004c4    program   0x000000
+      .idata_readaddr.o_i    romdata   0x0004c4    program   0x000000
+      .romdata_readaddr.o    romdata   0x0004c4    program   0x000000
+      .idata_readdata.o_i    romdata   0x0004c4    program   0x000000
+      .romdata_readdata.o    romdata   0x0004c4    program   0x000000
 .config_300001_lcd_hello.o    romdata   0x300001    program   0x000001
 .config_300003_lcd_hello.o    romdata   0x300003    program   0x000001
 .config_300006_lcd_hello.o    romdata   0x300006    program   0x000001
@@ -93,48 +93,48 @@ Linker Map File - Created Thu Oct 05 03:17:27 2017
                               Program Memory Usage 
                                Start         End      
                            ---------   ---------      
-                            0x000000    0x0004c7      
+                            0x000000    0x0004c3      
                             0x300001    0x300001      
                             0x300003    0x300003      
                             0x300006    0x300006      
-            1227 out of 33048 program addresses used, program memory utilization is 3%
+            1223 out of 33048 program addresses used, program memory utilization is 3%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                 BusyXLCD   0x000426    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\busyxlcd.c
-                   D100_1   0x00049c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-                    D100x   0x00049a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-                   D10K_1   0x000404    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x000410    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x000402    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10_1   0x0004ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                     D10x   0x0004b2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-             Delay100TCYx   0x00048e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-             Delay10KTCYx   0x0003f8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-              Delay10TCYx   0x0004aa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                 BusyXLCD   0x000422    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\busyxlcd.c
+                   D100_1   0x000498    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+                    D100x   0x000496    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+                   D10K_1   0x000400    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x00040c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x0003fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10_1   0x0004b6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                     D10x   0x0004ae    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+             Delay100TCYx   0x00048a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+             Delay10KTCYx   0x0003f4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+              Delay10TCYx   0x0004a6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
             DelayFor18TCY   0x000140    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
              DelayPORXLCD   0x00014c    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
                 DelayXLCD   0x000158    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
                  OpenXLCD   0x0000a6    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\openxlcd.c
-             ReadAddrXLCD   0x00032e    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\readaddr.c
-             ReadDataXLCD   0x0002ea    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\readdata.c
-             SetCGRamAddr   0x000214    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setcgram.c
+             ReadAddrXLCD   0x00032a    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\readaddr.c
+             ReadDataXLCD   0x0002e6    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\readdata.c
+             SetCGRamAddr   0x000212    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setcgram.c
              SetDDRamAddr   0x0001ca    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setddram.c
-             WriteCmdXLCD   0x0002a4    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\wcmdxlcd.c
-            WriteDataXLCD   0x00025e    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\writdata.c
-       _D100TCYXCODE_0008   0x000496    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-       _D100TCYXCODE_0012   0x0004a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-       _D100TCYXCODE_0018   0x0004a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-       _D10KTCYXCODE_0010   0x000408    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x000414    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-        _D10TCYXCODE_000A   0x0004b4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000C   0x0004b6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000E   0x0004b8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+             WriteCmdXLCD   0x0002a0    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\wcmdxlcd.c
+            WriteDataXLCD   0x00025a    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\writdata.c
+       _D100TCYXCODE_0008   0x000492    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0012   0x00049c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0018   0x0004a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+       _D10KTCYXCODE_0010   0x000404    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x000410    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+        _D10TCYXCODE_000A   0x0004b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x0004b2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x0004b4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00001   0x00048c    program     static                          
+       ___return_lbl00001   0x000488    program     static                          
        ___return_lbl00002   0x0000a4    program     static                          
        ___return_lbl00003   0x0001c8    program     static                          
         ___while_lbl00004   0x000172    program     static                          
@@ -148,34 +148,34 @@ Linker Map File - Created Thu Oct 05 03:17:27 2017
                __config_0   0x300001    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
                __config_1   0x300003    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
                __config_2   0x300006    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
-                   __init   0x0004c6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
-                   __pa_0   0x0002dc    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\wcmdxlcd.c
-                   __pa_0   0x000206    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setddram.c
-                   __pa_0   0x000296    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\writdata.c
-                   __pa_0   0x000250    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setcgram.c
-                   __pa_0   0x0003e8    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putsxlcd.c
-                   __pa_0   0x0003a4    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putrxlcd.c
-                   __pa_0   0x000440    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\busyxlcd.c
+                   __init   0x0004c2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+                   __pa_0   0x0002d8    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\wcmdxlcd.c
+                   __pa_0   0x000204    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setddram.c
+                   __pa_0   0x000292    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\writdata.c
+                   __pa_0   0x00024c    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setcgram.c
+                   __pa_0   0x0003e4    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putsxlcd.c
+                   __pa_0   0x0003a0    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putrxlcd.c
+                   __pa_0   0x00043c    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\busyxlcd.c
                    __pa_0   0x00012e    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\openxlcd.c
                    __pa_1   0x000138    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\openxlcd.c
-               __string_0   0x0004c0    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
-            __zero_memory   0x000452    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+               __string_0   0x0004bc    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
+            __zero_memory   0x00044e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                 _do_cinit   0x000008    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 _startup   0x000472    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                compare_l   0x000468    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                 _startup   0x00046e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                compare_l   0x000464    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                 copy_loop   0x00007a    program     static                          
             copy_one_byte   0x000080    program     static                          
                      done   0x0000a4    program     static                          
              done_copying   0x00008e    program     static                          
-                     loop   0x000482    program     static                          
-                   loop_h   0x000460    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-                   loop_l   0x00046a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                     loop   0x00047e    program     static                          
+                   loop_h   0x00045c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                   loop_l   0x000466    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                      main   0x000164    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
-                putrsXLCD   0x000372    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putrxlcd.c
-                 putsXLCD   0x0003b6    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putsxlcd.c
+                putrsXLCD   0x00036e    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putrxlcd.c
+                 putsXLCD   0x0003b2    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putsxlcd.c
                      test   0x000022    program     static                          
-               zero_block   0x000460    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+               zero_block   0x00045c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                    ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                    ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
@@ -385,49 +385,49 @@ Linker Map File - Created Thu Oct 05 03:17:27 2017
         ___while_lbl00011   0x0001c6    program     static                          
        ___return_lbl00003   0x0001c8    program     static                          
              SetDDRamAddr   0x0001ca    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setddram.c
-                   __pa_0   0x000206    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setddram.c
-             SetCGRamAddr   0x000214    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setcgram.c
-                   __pa_0   0x000250    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setcgram.c
-            WriteDataXLCD   0x00025e    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\writdata.c
-                   __pa_0   0x000296    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\writdata.c
-             WriteCmdXLCD   0x0002a4    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\wcmdxlcd.c
-                   __pa_0   0x0002dc    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\wcmdxlcd.c
-             ReadDataXLCD   0x0002ea    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\readdata.c
-             ReadAddrXLCD   0x00032e    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\readaddr.c
-                putrsXLCD   0x000372    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putrxlcd.c
-                   __pa_0   0x0003a4    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putrxlcd.c
-                 putsXLCD   0x0003b6    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putsxlcd.c
-                   __pa_0   0x0003e8    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putsxlcd.c
-             Delay10KTCYx   0x0003f8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x000402    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                   D10K_1   0x000404    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_0010   0x000408    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x000410    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x000414    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                 BusyXLCD   0x000426    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\busyxlcd.c
-                   __pa_0   0x000440    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\busyxlcd.c
-            __zero_memory   0x000452    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-               zero_block   0x000460    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-                   loop_h   0x000460    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-                compare_l   0x000468    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-                   loop_l   0x00046a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-                 _startup   0x000472    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x000482    program     static                          
-       ___return_lbl00001   0x00048c    program     static                          
-             Delay100TCYx   0x00048e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-       _D100TCYXCODE_0008   0x000496    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-                    D100x   0x00049a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-                   D100_1   0x00049c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-       _D100TCYXCODE_0012   0x0004a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-       _D100TCYXCODE_0018   0x0004a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
-              Delay10TCYx   0x0004aa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                     D10x   0x0004b2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000A   0x0004b4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000C   0x0004b6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000E   0x0004b8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                    D10_1   0x0004ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-               __string_0   0x0004c0    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
-                   __init   0x0004c6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+                   __pa_0   0x000204    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setddram.c
+             SetCGRamAddr   0x000212    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setcgram.c
+                   __pa_0   0x00024c    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\setcgram.c
+            WriteDataXLCD   0x00025a    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\writdata.c
+                   __pa_0   0x000292    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\writdata.c
+             WriteCmdXLCD   0x0002a0    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\wcmdxlcd.c
+                   __pa_0   0x0002d8    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\wcmdxlcd.c
+             ReadDataXLCD   0x0002e6    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\readdata.c
+             ReadAddrXLCD   0x00032a    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\readaddr.c
+                putrsXLCD   0x00036e    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putrxlcd.c
+                   __pa_0   0x0003a0    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putrxlcd.c
+                 putsXLCD   0x0003b2    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putsxlcd.c
+                   __pa_0   0x0003e4    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\putsxlcd.c
+             Delay10KTCYx   0x0003f4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x0003fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                   D10K_1   0x000400    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_0010   0x000404    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x00040c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x000410    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                 BusyXLCD   0x000422    program     extern E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\busyxlcd.c
+                   __pa_0   0x00043c    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\custom_lcd_files\busyxlcd.c
+            __zero_memory   0x00044e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+               zero_block   0x00045c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                   loop_h   0x00045c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                compare_l   0x000464    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                   loop_l   0x000466    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                 _startup   0x00046e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x00047e    program     static                          
+       ___return_lbl00001   0x000488    program     static                          
+             Delay100TCYx   0x00048a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0008   0x000492    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+                    D100x   0x000496    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+                   D100_1   0x000498    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0012   0x00049c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0018   0x0004a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d100tcyx.asm
+              Delay10TCYx   0x0004a6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                     D10x   0x0004ae    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000A   0x0004b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x0004b2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x0004b4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                    D10_1   0x0004b6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+               __string_0   0x0004bc    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
+                   __init   0x0004c2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
                __config_0   0x300001    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
                __config_1   0x300003    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
                __config_2   0x300006    program     static E:\ECNG3006\L01_814002707\Lab1_q7.X\lcd_hello.c
