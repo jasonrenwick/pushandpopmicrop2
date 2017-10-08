@@ -8,39 +8,42 @@
 //#pragma config WDT = OFF //Disable watchdog timer
 //#pragma config LVP = OFF //Disable low voltage programming
 
-unsigned int MapIndex;
+unsigned int MapIndex = 0;
 extern void intMapName(void);
 extern char getMapChar(void);
 extern char MapName;
+char grpName[7];
 
-#define _XTAL_FREQ 20000000UL
-
-
+#define _XTAL_FREQ 4000000UL
 
 void DelayFor18TCY(void)
-{
-    Delay10TCYx(0x6); //delays 20 cycles
-    return;
-}
-
+ {
+ Delay10TCYx(2); //delays 20 cycles
+ return;
+ }
  /*****/
-
-void DelayPORXLCD(void)   // minimum 15ms
-{
-    Delay100TCYx(0xF0);   // 100TCY * 160
-    return;
-}
-
+ void DelayPORXLCD(void)   // minimum 15ms
+ {
+ Delay100TCYx(0xA0);
+ Delay100TCYx(0xA0); 
+ Delay100TCYx(0xA0); 
+ Delay100TCYx(0xA0);
+   
+ return;
+ }
  /*****/
+ void DelayXLCD(void)     // minimum 5ms
+ {
+ Delay100TCYx(0x50);      // 100TCY * 54
+ Delay100TCYx(0x50);  
+ Delay100TCYx(0x50);  
 
-void DelayXLCD(void)     // minimum 5ms
-{
-    Delay100TCYx(0xF6);      // 100TCY * 54
-    return;
-}
-
+ return;
+ }
+ 
 void main(void){
-    char grpName[7];
+    //char grpName[7] = "hello";
+    
     intMapName();
     for(MapIndex=0;MapIndex<=7;MapIndex++){
         grpName[MapIndex] = getMapChar();
@@ -48,7 +51,7 @@ void main(void){
     
     PORTD = 0X00;
     TRISD = 0X00;
-    
+
     OpenXLCD(FOUR_BIT & LINES_5X7);
     while( BusyXLCD() );
     SetDDRamAddr(0x00);
@@ -58,11 +61,8 @@ void main(void){
     while( BusyXLCD() );
     putsXLCD(grpName);
     while( BusyXLCD() );
-       
     Sleep();
-    
-
-        
+       
 }
 
 
